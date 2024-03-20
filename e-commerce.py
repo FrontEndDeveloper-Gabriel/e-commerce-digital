@@ -214,6 +214,8 @@ def loja():
       (4) - Notebook
     ''')
     opcao_produto = input('Escolha uma das opções de produtos acima: ')
+# ------------------------------------------------------------------------------
+# (1) - COMPUTADORES
     if opcao_produto ==  '1':
       lista_computador()
       escolha_computador = input('Escolha o computador acima: ')
@@ -237,6 +239,7 @@ def loja():
           forma_pagamento3()
           despedida()
 # ------------------------------------------------------------------------------
+  # (2) - CONSOLES
     if opcao_produto ==  '2':
       lista_console()
       escolha_console = input('Escolha o console acima: ')
@@ -260,6 +263,7 @@ def loja():
           forma_pagamento3()
           despedida()
 # ------------------------------------------------------------------------------
+  # (3) - CELULARES
     if opcao_produto ==  '3':
       lista_celulares()
       escolha_celular = input('Escolha o celular acima: ')
@@ -283,6 +287,7 @@ def loja():
           forma_pagamento3()
           despedida()
 # ------------------------------------------------------------------------------
+  # (4) - NOTEBOOKS
     if opcao_produto ==  '4':
       lista_notebooks()
       escolha_notebook = input('Escolha o notebook acima: ')
@@ -305,9 +310,6 @@ def loja():
       elif escolher_pagamento == "3":
           forma_pagamento3()
           despedida()
-      else:
-       parar(opcao_produto)
-       loja()
 
 while True:
       loja()
