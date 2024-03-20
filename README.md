@@ -11,7 +11,9 @@
 3) Depois de digitado o número, ira aparecer uma lista com 3 produtos cada; <br>
 4) Irá pedir para selecionar um dos produtos com seu respectivo código; <br>
 5) Selecionando, será exibido a forma de pagamento do produto; <br>
-6) Depois de selecionado a forma de pagamento, será exibida uma imagem na tela que a compra foi efetuada com sucesso. <br>
+6) Depois de selecionado a forma de pagamento, será exibida uma mensagem na tela de que a compra foi efetuada com sucesso. <br>
+
+Obs: Depois de preencher com os dados, será gerado um código ID do cliente.
 </h3>
 
 # <h4>Requisitos:
