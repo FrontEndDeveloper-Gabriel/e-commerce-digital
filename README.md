@@ -13,7 +13,7 @@
 5) Selecionando, será exibido a forma de pagamento do produto; <br>
 6) Depois de selecionado a forma de pagamento, será exibida uma mensagem na tela de que a compra foi efetuada com sucesso. <br>
 
-Obs: Depois de preencher com os dados, será gerado um código ID do cliente.
+<strong>Obs: Depois de preencher com os dados, será gerado um código ID do cliente.</strong>
 </h3>
 
 # <h4>Requisitos:
