@@ -65,9 +65,6 @@ def despedida():
     Código do cliente -> {id_codigo}
     Obrigado por comprar conosco!
     ''')
-
-def sair():
-    print("")
 # ------------------------------------------------------------------------------
 # CONSOLES
 def lista_console():
