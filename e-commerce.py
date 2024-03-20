@@ -203,7 +203,7 @@ def despedida():
     ''')
 #-------------------------------------------------------------------------------
 def parar(escolha):
-    if escolha != 'opcao_computador' or 'opcao_console' or 'opcao_celular' or "opcao_notebook":
+    if escolha != '1' or '2' or '3' or "4":
        print('Escolha incorreta')
 
 def loja():
@@ -222,22 +222,44 @@ def loja():
       if escolha_computador == "1":
          escolher_computador01()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_computador == "2":
          escolher_computador02()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_computador == "3":
          escolher_computador03()
          aviso_pagamento()
-      escolher_pagamento = input('Escolha a forma de pagamento acima: ')
-      if escolher_pagamento == "1":
-          forma_pagamento1()
-          despedida()
-      elif escolher_pagamento == "2":
-          forma_pagamento2()
-          despedida()
-      elif escolher_pagamento == "3":
-          forma_pagamento3()
-          despedida()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
+      else:
+         print("Escolha Inválida")
 # ------------------------------------------------------------------------------
   # (2) - CONSOLES
     if opcao_produto ==  '2':
@@ -246,22 +268,44 @@ def loja():
       if escolha_console == "1":
          escolher_console01()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_console == "2":
          escolher_console02()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_console == "3":
          escolher_console03()
          aviso_pagamento()
-      escolher_pagamento = input('Escolha a forma de pagamento acima: ')
-      if escolher_pagamento == "1":
-          forma_pagamento1()
-          despedida()
-      elif escolher_pagamento == "2":
-          forma_pagamento2()
-          despedida()
-      elif escolher_pagamento == "3":
-          forma_pagamento3()
-          despedida()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
+      else:
+         print("Escolha Inválida")
 # ------------------------------------------------------------------------------
   # (3) - CELULARES
     if opcao_produto ==  '3':
@@ -270,22 +314,44 @@ def loja():
       if escolha_celular == "1":
          escolher_celular01()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_celular == "2":
          escolher_celular02()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_celular == "3":
          escolher_celular03()
          aviso_pagamento()
-      escolher_pagamento = input('Escolha a forma de pagamento acima: ')
-      if escolher_pagamento == "1":
-          forma_pagamento1()
-          despedida()
-      elif escolher_pagamento == "2":
-          forma_pagamento2()
-          despedida()
-      elif escolher_pagamento == "3":
-          forma_pagamento3()
-          despedida()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
+      else:
+         print("Escolha Inválida")
 # ------------------------------------------------------------------------------
   # (4) - NOTEBOOKS
     if opcao_produto ==  '4':
@@ -294,25 +360,44 @@ def loja():
       if escolha_notebook == "1":
          escolher_notebook01()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_notebook == "2":
          escolher_notebook02()
          aviso_pagamento()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       elif escolha_notebook == "3":
          escolher_notebook03()
          aviso_pagamento()
-      escolher_pagamento = input('Escolha a forma de pagamento acima: ')
-      if escolher_pagamento == "1":
-          forma_pagamento1()
-          despedida()
-      elif escolher_pagamento == "2":
-          forma_pagamento2()
-          despedida()
-      elif escolher_pagamento == "3":
-          forma_pagamento3()
-          despedida()
+         escolher_pagamento = input('Escolha a forma de pagamento acima: ')
+         if escolher_pagamento == "1":
+             forma_pagamento1()
+             despedida()
+         elif escolher_pagamento == "2":
+             forma_pagamento2()
+             despedida()
+         elif escolher_pagamento == "3":
+             forma_pagamento3()
+             despedida()
       else:
-       parar(opcao_produto)
-       loja()
+         print("Escolha Inválida")
 
 while True:
       loja()
