@@ -21,7 +21,8 @@ print(" ")
 print(f"Seja bem vindo {name} a Loja BielzTech, seu código de cliente é {id_codigo}")
 
 # ------------------------------------------------------------------------------
-# COMPUTADORES
+# BANCO DE DADOS DOS PRODUTOS
+# (1) - COMPUTADORES
 def lista_computador():
         print('''
           1 - Computador Completo Intel Core i7 16GB SSD 480GB Monitor 19" 4 Núcleos Super Turbo Pc Hdmi Teclado e Mouse Strong Tech
@@ -66,7 +67,7 @@ def despedida():
     Obrigado por comprar conosco!
     ''')
 # ------------------------------------------------------------------------------
-# CONSOLES
+# (2) - CONSOLES
 def lista_console():
         print('''
           1 - Xbox One
@@ -111,7 +112,7 @@ def despedida():
     Obrigado por comprar conosco!
     ''')
 # ------------------------------------------------------------------------------
-# CELULARES
+# (3) - CELULARES
 def lista_celulares():
         print('''
           1 - Apple iPhone 15 Pro Max (256 GB) — Titânio Azul
@@ -156,7 +157,7 @@ def despedida():
     Obrigado por comprar conosco!
     ''')
 # ------------------------------------------------------------------------------
-# NOTEBOOKS
+# (4) - NOTEBOOKS
 def lista_notebooks():
         print('''
           1 - Notebook Acer Aspire 5 A515 Ryzen 7 5700u 512gb 8gb Ram W11
