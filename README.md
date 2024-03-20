@@ -6,12 +6,12 @@
 
 # <h3>COMO FUNCIONA?
 <strong>Manual:</strong>
-ㅤㅤㅤㅤㅤㅤㅤ1) Será exibido um campo para preencher os <strong>dados pessoais<strong/>; <br>
-ㅤㅤㅤㅤㅤㅤㅤ2) Depois de preenchido, será exibida 4 opções de produto com seus respectivos números de identificação; <br>
-ㅤㅤㅤㅤㅤㅤㅤ3) Depois de digitado o número, ira aparecer uma lista com 3 produtos cada; <br>
-ㅤㅤㅤㅤㅤㅤㅤ4) Irá pedir para selecionar um dos produtos com seu respectivo código; <br>
-ㅤㅤㅤㅤㅤㅤㅤ5) Selecionando, será exibido a forma de pagamento do produto; <br>
-ㅤㅤㅤㅤㅤㅤㅤ6) Depois de selecionado a forma de pagamento, será exibida uma imagem na tela que a compra foi efetuada com sucesso. <br>
+1) Será exibido um campo para preencher os dados pessoais; <br>
+2) Depois de preenchido, será exibida 4 opções de produto com seus respectivos números de identificação; <br>
+3) Depois de digitado o número, ira aparecer uma lista com 3 produtos cada; <br>
+4) Irá pedir para selecionar um dos produtos com seu respectivo código; <br>
+5) Selecionando, será exibido a forma de pagamento do produto; <br>
+6) Depois de selecionado a forma de pagamento, será exibida uma imagem na tela que a compra foi efetuada com sucesso. <br>
 </h3>
 
 # <h4>Requisitos:
