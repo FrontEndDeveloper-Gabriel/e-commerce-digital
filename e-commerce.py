@@ -310,6 +310,9 @@ def loja():
       elif escolher_pagamento == "3":
           forma_pagamento3()
           despedida()
+      else:
+       parar(opcao_produto)
+       loja()
 
 while True:
       loja()
