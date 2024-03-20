@@ -284,7 +284,7 @@ def loja():
 # ------------------------------------------------------------------------------
     if opcao_produto ==  '4':
       lista_notebooks()
-      escolha_notebook = input('Escolha o celular acima: ')
+      escolha_notebook = input('Escolha o notebook acima: ')
       if escolha_notebook == "1":
          escolher_notebook01()
          aviso_pagamento()
