@@ -4,7 +4,7 @@
 Uma simples loja E-Commerce com produtos de informática e suas respectivas formas de pagamento. <br>
 
 
-<h3>Como funciona?</h3>
+# <h3>Como funciona?</h3>
 <strong>Manual:</strong>
 1) Será exibido um campo para preencher os dados pessoais; <br>
 2) Depois de preenchido, será exibida 4 opções de produto com seus respectivos números de identificação; <br>
