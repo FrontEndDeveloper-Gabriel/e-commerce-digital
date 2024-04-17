@@ -1,10 +1,10 @@
 # CÓDIGO EM PYTHON - LOJA E-COMMERCE
 
-# <h2>O QUE É?
-<strong>Introdução:</strong> Uma simples loja E-Commerce com produtos de informática e suas respectivas formas de pagamento. <br>
-</h2>
+<h3>Introdução</h3>
+Uma simples loja E-Commerce com produtos de informática e suas respectivas formas de pagamento. <br>
 
-# <h3>COMO FUNCIONA?
+
+<h3>Como funciona?</h3>
 <strong>Manual:</strong>
 1) Será exibido um campo para preencher os dados pessoais; <br>
 2) Depois de preenchido, será exibida 4 opções de produto com seus respectivos números de identificação; <br>
@@ -14,7 +14,6 @@
 6) Depois de selecionado a forma de pagamento, será exibida uma mensagem na tela de que a compra foi efetuada com sucesso. <br>
 
 <strong>Obs: Depois de preencher com os dados pessoais, será gerado um código ID do cliente.</strong>
-</h3>
 
 # <h4>Requisitos:
 º Ter um editor de texto na máquina; <br>
