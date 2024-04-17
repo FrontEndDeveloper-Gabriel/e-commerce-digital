@@ -13,6 +13,7 @@ Uma simples loja E-Commerce com produtos de informática e suas respectivas form
 5) Selecionando, será exibido a forma de pagamento do produto; <br>
 6) Depois de selecionado a forma de pagamento, será exibida uma mensagem na tela de que a compra foi efetuada com sucesso. <br>
 
+<br>
 <strong>Obs: Depois de preencher com os dados pessoais, será gerado um código ID do cliente.</strong>
 
 # <h4>Requisitos:
